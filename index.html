@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="headboard">
+        <img src="assets/logo.png" alt="Logo To Do" class="headboard__logo">
+        <h1 class="headboard__title">Lista de Tareas</h1>
+    </header>
+    <main>
+        <section class="major">
+            <div class="major__container">
+                <form>
+                    <div class="form__task">
+                        <input type="text" class="form__text" placeholder="Escribe aquí la tarea" data-input>
+                        <button type="button" class="form__btn" data-btn>+</button>
+                    </div>
+                    <div class="form__list">
+                        <ul class="form__ul" data-list>
+                                                        
+                        </ul>
+                    </div>
+                    <div class="form__p">
+                        <p data-empty>No tienes tareas pendientes...</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="js/code.js"></script>
+</body>
+</html>

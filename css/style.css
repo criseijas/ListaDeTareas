@@ -1,0 +1,87 @@
+body{
+    font-family: 'Quicksand';
+}
+
+.headboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.headboard__logo{
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+}
+
+.major{
+    width: 940px;
+    margin: 0 auto;
+    background-color: lavender;
+    padding: 1.8rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    height: auto;
+}
+
+.form__task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+
+.form__text{
+    width: 60%;
+    padding: 0.8rem 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.form__btn{
+    width: 50px;
+    height: 40px;
+    border: none;
+    font-size: 2rem;
+    border-radius: 20%;
+    background-color: mediumpurple;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.form__ul{
+   list-style: none;
+}
+
+li{
+    background-color: lightgray;
+    padding: 0.1rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    border-radius: 2rem;
+    width: 50%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete__btn{
+    width: 55px;
+    height: 55px;
+    border: none;
+    font-size: 2rem;
+    border-radius: 20%;
+    background-color: transparent;
+    cursor: pointer;
+    color: indianred;
+    font-weight: 600;
+}
+
+.form__p{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
